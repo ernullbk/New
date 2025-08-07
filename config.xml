@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.example.snappfoodauth" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>SnappfoodAuth</name>
-    <description>Snappfood JWT Authentication App</description>
-    <author email="you@example.com" href="https://example.com">Your Name</author>
-    <content src="index.html" />
-    <allow-navigation href="*" />
-    <access origin="*" />
-    <preference name="AndroidXEnabled" value="true" />
-    <preference name="android-minSdkVersion" value="21" />
+    [span_0](start_span)<name>SnappfoodAuth</name>[span_0](end_span)
+    [span_1](start_span)<description>Snappfood JWT Authentication App</description>[span_1](end_span)
+    [span_2](start_span)<author email="you@example.com" href="https://example.com">Your Name</author>[span_2](end_span)
+    [span_3](start_span)<content src="index.html" />[span_3](end_span)
+    [span_4](start_span)<allow-navigation href="*" />[span_4](end_span)
+    [span_5](start_span)<access origin="*" />[span_5](end_span)
+    [span_6](start_span)<preference name="AndroidXEnabled" value="true" />[span_6](end_span)
+    [span_7](start_span)<preference name="android-minSdkVersion" value="21" />[span_7](end_span)
     <preference name="android-targetSdkVersion" value="34" />
     <preference name="android-compileSdkVersion" value="34" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^5.0.0" />
-    <plugin name="cordova-plugin-dialogs" spec="^2.0.2" />
-    <plugin name="cordova-plugin-androidx" />
-    <plugin name="cordova-plugin-androidx-adapter" />
+    <preference name="AndroidTheme" value="@style/Theme.AppCompat.NoActionBar" />
+    [span_8](start_span)<plugin name="cordova-plugin-inappbrowser" spec="^5.0.0" />[span_8](end_span)
+    [span_9](start_span)<plugin name="cordova-plugin-dialogs" spec="^2.0.2" />[span_9](end_span)
+    [span_10](start_span)<plugin name="cordova-plugin-androidx" />[span_10](end_span)
+    [span_11](start_span)<plugin name="cordova-plugin-androidx-adapter" />[span_11](end_span)
 </widget>
