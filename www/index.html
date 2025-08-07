@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>HRLink</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <style>
+    @font-face {
+      font-family: "Shabnam";
+      src: url("Shabnam.woff2") format("woff2");
+      font-weight: 100;
+      font-style: normal;
+    }
+    body {
+      background-color: #263238;
+      color: #fff;
+      font-family: Shabnam, sans-serif;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    input[type="text"] {
+      direction: ltr;
+      font-family: Shabnam, sans-serif;
+      font-size: 1rem;
+    }
+    #fetchBtn {
+      width: 100%;
+    }
+    #status {
+      margin-top: 10px;
+      min-height: 20px;
+      font-size: 0.95rem;
+      text-align: center;
+      color: #ffcc80;
+    }
+    footer {
+      margin-top: auto;
+      padding-bottom: 10px;
+      text-align: center;
+      color: #999;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-group mt-4">
+      <input
+        type="text"
+        class="form-control"
+        id="apiUrl"
+        placeholder="لینک را اینجا بزار"
+        autocomplete="off"
+      />
+    </div>
+    <button id="fetchBtn" class="btn btn-primary mb-3">ارسال</button>
+    <div id="status"></div>
+  </div>
+  <footer>
+    <p>ver5.0</p>
+    <p><a href="https://pt.clickroi.ir" target="_blank">دانلود آخرین نسخه</a></p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
